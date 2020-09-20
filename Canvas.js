@@ -16,9 +16,3 @@ let Canvas = new Canvas2D();
 let image = new Image();
 image.src = "./assets/sprites/spr_background4.png"
 
-
-//testando
-setTimeout(() => {
-    Canvas.drawImage(image, {x:0, y:0});
-    //Canvas.clear();
-}, 1000)
